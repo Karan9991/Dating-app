@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="notificationVM" type="com.karansapplication.app.modules.notification.data.viewmodel.NotificationVM"/>
+    </data>
+    <LinearLayout android:gravity="end"
+        android:id="@+id/linearNotification"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <TextView android:ellipsize="end" android:id="@+id/txtSkip"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{notificationVM.notificationModel.txtSkip}"
+            style="@style/txtSkModernistskmodernistbold16" tools:text="@string/lbl_skip"/>
+        <ImageView android:id="@+id/imageChat"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_169pxh"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_127pxv"
+            android:layout_width="@dimen/_190pxh"
+            android:scaleType="fitXY" imageRes="@{@drawable/img_chat}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_chat"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtEnablenotifica"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_100pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{notificationVM.notificationModel.txtEnablenotifica}"
+            style="@style/txtSkModernistskmodernistbold24" tools:text="@string/msg_enable_notifica"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtGetpushnotifi"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="match_parent"
+            android:text="@{notificationVM.notificationModel.txtGetpushnotifi}"
+            style="@style/txtSkModernistskmodernistregular14_4" tools:text="@string/msg_get_push_notifi"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnIWantToBeNotified"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_146pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_18pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_18pxv" android:singleLine="true"
+            android:text="@string/msg_i_want_to_be_no"
+            android:textAllCaps="false" style="@style/btnSolidRounded" tools:text="@string/msg_i_want_to_be_no"/>
+    </LinearLayout>
+</layout>

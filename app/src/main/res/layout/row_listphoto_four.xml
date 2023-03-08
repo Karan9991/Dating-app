@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listphotoFourRowModel" type="com.karansapplication.app.modules.messages.data.model.ListphotoFourRowModel"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearPerson"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:orientation="vertical">
+        <FrameLayout android:id="@+id/framePhoto"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_58pxv"
+            android:layout_marginEnd="@dimen/_4pxh"
+            android:layout_marginStart="@dimen/_4pxh"
+            android:layout_marginTop="@dimen/_4pxv" android:layout_width="@dimen/_58pxh">
+            <ImageView android:id="@+id/imagePhotoFour"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_58pxh"
+                android:layout_width="@dimen/_58pxh"
+                android:scaleType="centerCrop" circular="@{true}"
+                imageRes="@{@drawable/img_photo_13}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_photo_13"/>
+            <ImageView android:id="@+id/imagePhotoOne"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_58pxh"
+                android:layout_width="@dimen/_58pxh"
+                android:scaleType="centerCrop" circular="@{true}"
+                imageRes="@{@drawable/img_photo_15}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_photo_15"/>
+        </FrameLayout>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtNameThree"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_9pxh"
+            android:layout_marginStart="@dimen/_9pxh"
+            android:layout_marginTop="@dimen/_11pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{listphotoFourRowModel.txtNameThree}"
+            style="@style/txtSkModernistskmodernistbold14" tools:text="@string/lbl_sophia"/>
+    </LinearLayout>
+</layout>

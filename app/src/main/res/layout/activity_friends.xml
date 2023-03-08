@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="friendsVM" type="com.karansapplication.app.modules.friends.data.viewmodel.FriendsVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearFriends"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <TextView android:ellipsize="end" android:id="@+id/txtSkip"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_60pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{friendsVM.friendsModel.txtSkip}"
+            style="@style/txtSkModernistskmodernistbold16" tools:text="@string/lbl_skip"/>
+        <ImageView android:id="@+id/imagePeople"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_200pxh"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_107pxv"
+            android:layout_width="@dimen/_180pxh"
+            android:scaleType="fitXY" imageRes="@{@drawable/img_people}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_people"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtSearchfriends"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_89pxv"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:text="@{friendsVM.friendsModel.txtSearchfriends}"
+            style="@style/txtSkModernistskmodernistbold24" tools:text="@string/lbl_search_friend_s"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtYoucanfindfr"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="match_parent"
+            android:text="@{friendsVM.friendsModel.txtYoucanfindfr}"
+            style="@style/txtSkModernistskmodernistregular14_4" tools:text="@string/msg_you_can_find_fr"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnAccessToAContactList"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_40pxh"
+            android:layout_marginStart="@dimen/_40pxh"
+            android:layout_marginTop="@dimen/_149pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_18pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_18pxv" android:singleLine="true"
+            android:text="@string/msg_access_to_a_con"
+            android:textAllCaps="false" style="@style/btnSolidRounded" tools:text="@string/msg_access_to_a_con"/>
+    </LinearLayout>
+</layout>

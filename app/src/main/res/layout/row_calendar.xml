@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="calendarRowModel" type="com.karansapplication.app.modules.calendar.data.model.CalendarRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <TextView android:ellipsize="end" android:id="@+id/txtOne"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.1" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{calendarRowModel.txtOne}"
+            style="@style/txtSkModernistskmodernistregular14_1" tools:text="@string/lbl_1"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtTwo"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginStart="@dimen/_35pxh"
+            android:layout_weight="0.15" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{calendarRowModel.txtTwo}"
+            style="@style/txtSkModernistskmodernistregular14_1" tools:text="@string/lbl_2"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtThree"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginStart="@dimen/_33pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.15" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{calendarRowModel.txtThree}"
+            style="@style/txtSkModernistskmodernistregular14_1" tools:text="@string/lbl_3"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtFour"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginStart="@dimen/_33pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.15" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{calendarRowModel.txtFour}"
+            style="@style/txtSkModernistskmodernistregular14_1" tools:text="@string/lbl_4"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtFive"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_33pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.15" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{calendarRowModel.txtFive}"
+            style="@style/txtSkModernistskmodernistregular14_1" tools:text="@string/lbl_5"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtSix"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginStart="@dimen/_33pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.15" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{calendarRowModel.txtSix}"
+            style="@style/txtSkModernistskmodernistregular14_1" tools:text="@string/lbl_6"/>
+        <TextView android:ellipsize="end" android:id="@+id/txtSeven"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginStart="@dimen/_33pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.15" android:layout_width="0dp"
+            android:singleLine="true"
+            android:text="@{calendarRowModel.txtSeven}"
+            style="@style/txtSkModernistskmodernistregular14_1" tools:text="@string/lbl_7"/>
+    </LinearLayout>
+</layout>
