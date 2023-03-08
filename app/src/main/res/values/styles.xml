@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="txtSkModernistskmodernistbold24_2">
+        <item name="android:textSize">@dimen/_24pxh</item>
+        <item name="android:textColor">@color/red_400</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold24_1">
+        <item name="android:textSize">@dimen/_24pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStyleblack_900_1">
+        <item name="android:background">@drawable/rectangle_bg_black_900_7e_radius_bl_15_br_15</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular14_2">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/bluegray_800</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/black_900_b2</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular14_3">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/red_400</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular16_1">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular12_2">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="btnSolidRounded_2">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_bg_red_400_60_radius_tl_15_tr_15_br_15</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular14_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="btnSolidRounded_1">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/red_400</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_red_400_63_radius_15</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/rectangle_radius_33</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular14_4">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/black_900_b2</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular14_5">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/black_900_66</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold18">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylered_400_75cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_red_400_75_radius_15</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/black_900_b2</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/red_400</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular18">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/black_900_b2</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylered_1">
+        <item name="android:background">@drawable/rectangle_bg_red_400_radius_15</item>
+    </style>
+    <style name="groupStylewhite_A700_67cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_67_radius_7</item>
+    </style>
+    <style name="btnSolidRoundedOutline">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/red_400</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_gray_100_radius_15</item>
+    </style>
+    <style name="groupStylewhite_A700">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold14_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/red_400</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylecornerRadius_3">
+        <item name="android:background">@drawable/rectangle_border_black_900_19_radius_1_5</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold14_2">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylecornerRadius_2">
+        <item name="android:background">@drawable/rectangle_radius_15</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/bluegray_200</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="btnSolidRounded">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_red_400_radius_15</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold12_2">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/red_400</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylecornerRadius_4">
+        <item name="android:background">@drawable/rectangle_radius_1</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold16_3">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/black_900_b2</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStyleyellow_900_1">
+        <item name="android:background">@drawable/rectangle_bg_yellow_900_75_radius_bl_15_br_15</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold16_1">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylecornerRadius_1">
+        <item name="android:background">@drawable/rectangle_radius_29</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold16_2">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylewhite_1">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_28</item>
+    </style>
+    <style name="groupStylewhite_3">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="groupStylewhite_2">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_gray_200_radius_15</item>
+    </style>
+    <style name="etSolidRoundedOutline">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_gray_200_radius_15</item>
+    </style>
+    <style name="groupStylewhite_5">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_tl_30_tr_30</item>
+    </style>
+    <style name="groupStylewhite_4">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_48_99</item>
+    </style>
+    <style name="groupStylewhite_6">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_red_400_radius_5</item>
+    </style>
+    <style name="groupStylered_400_63cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_red_400_63_radius_15</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/black_900_66</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txt_1">
+        <item name="android:textSize">@dimen/_34pxh</item>
+        <item name="android:textColor">@color/red_400</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_dhi_0</item>
+    </style>
+    <style name="groupStylered_400_60cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_red_400_60_radius_tl_15_tr_15_br_15</item>
+    </style>
+    <style name="groupStylegray_1">
+        <item name="android:background">@drawable/rectangle_bg_gray_100_radius_tl_15_tr_15_bl_15</item>
+    </style>
+    <style name="txtSolidRounded">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_red_400_radius_10</item>
+    </style>
+    <style name="btnSolidRoundedOutline_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_gray_200_radius_5</item>
+    </style>
+    <style name="groupStylered_400cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_red_400_radius_15</item>
+    </style>
+    <style name="groupStylegray_100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_100_radius_tl_15_tr_15_bl_15</item>
+    </style>
+    <style name="groupStylered_400_1">
+        <item name="android:background">@drawable/rectangle_bg_red_400_75_radius_15</item>
+    </style>
+    <style name="etSolidRoundedOutline_2">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_33_border_gray_200_radius_15</item>
+    </style>
+    <style name="groupStylered_400_2">
+        <item name="android:background">@drawable/rectangle_bg_red_400_63_radius_7</item>
+    </style>
+    <style name="groupStyleyellow_900_75cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_yellow_900_75_radius_bl_15_br_15</item>
+    </style>
+    <style name="etSolidRoundedOutline_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_gray_200_radius_15</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold34">
+        <item name="android:textSize">@dimen/_34pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtSolidRounded_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_red_400_radius_21_5</item>
+    </style>
+    <style name="groupStyleblack_900_7ecornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_black_900_7e_radius_bl_15_br_15</item>
+    </style>
+    <style name="groupStyleblack_900cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_black_900_radius_bl_15_br_15</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold34_1">
+        <item name="android:textSize">@dimen/_34pxh</item>
+        <item name="android:textColor">@color/red_400</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylegray_100">
+        <item name="android:background">@drawable/rectangle_bg_gray_100</item>
+    </style>
+    <style name="txtSkModernistskmodernistregular24">
+        <item name="android:textSize">@dimen/_24pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylewhite_A700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_33</item>
+    </style>
+    <style name="btnSolidRoundedLeftCorner">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_red_400_radius_15</item>
+    </style>
+    <style name="txt">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_dhi_0</item>
+    </style>
+    <style name="groupStyleblack_900_87">
+        <item name="android:background">@drawable/rectangle_bg_black_900_87</item>
+    </style>
+    <style name="txtSkModernistskmodernistbold24">
+        <item name="android:textSize">@dimen/_24pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/sk_modernist</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="searchViewinputtextnone" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColorPrimary">@color/black_900_66</item>
+        <item name="android:textColorHint">@color/black_900_66</item>
+    </style>
+</resources>

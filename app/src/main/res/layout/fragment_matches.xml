@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="matchesVM" type="com.karansapplication.app.modules.matches.data.viewmodel.MatchesVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackmatches"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_44pxv" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearColumnmatches"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:gravity="center_horizontal"
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_40pxh"
+                android:layout_marginStart="@dimen/_40pxh"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:id="@+id/linearHeader"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtMatches"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_2pxv"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_weight="0.73"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{matchesVM.matchesModel.txtMatches}"
+                        style="@style/txtSkModernistskmodernistbold34" tools:text="@string/lbl_matches"/>
+                    <ImageButton
+                        android:background="@drawable/rectangle_bg_white_a700_border_gray_200_radius_15"
+                        android:id="@+id/btnVolume"
+                        android:layout_height="@dimen/_52pxh"
+                        android:layout_marginStart="@dimen/_103pxh"
+                        android:layout_width="@dimen/_52pxh"
+                        android:paddingHorizontal="@dimen/_16pxh"
+                        android:paddingVertical="@dimen/_16pxv"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/img_volume_red_400" tools:ignore="ContentDescription"/>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearColumnthisisalist"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_40pxh"
+                android:layout_marginStart="@dimen/_40pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylewhite_A700">
+                <TextView android:gravity="center_horizontal"
+                    android:id="@+id/txtThisisalist"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_5pxh"
+                    android:layout_width="match_parent"
+                    android:text="@{matchesVM.matchesModel.txtThisisalist}"
+                    style="@style/txtSkModernistskmodernistregular16" tools:text="@string/msg_this_is_a_list"/>
+                <LinearLayout android:id="@+id/linearToday"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_21pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <View android:background="@color/gray_200"
+                        android:id="@+id/lineLineOne"
+                        android:layout_height="@dimen/_1pxv"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="0.44" android:layout_width="0dp"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtToday"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_weight="0.12"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{matchesVM.matchesModel.txtToday}"
+                        style="@style/txtSkModernistskmodernistregular12" tools:text="@string/lbl_today"/>
+                    <View android:background="@color/gray_200"
+                        android:id="@+id/lineLineTwo"
+                        android:layout_height="@dimen/_1pxv"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="0.44" android:layout_width="0dp"/>
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerMatches"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_width="match_parent"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:spanCount="2" itemSpace="@{@dimen/_15pxh}"
+                    tools:itemCount="4" tools:listitem="@layout/row_matches"/>
+                <LinearLayout android:id="@+id/linearToday1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_19pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <View android:background="@color/gray_200"
+                        android:id="@+id/lineLineOneOne"
+                        android:layout_height="@dimen/_1pxv"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="0.4" android:layout_width="0dp"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtYesterday"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_weight="0.2"
+                        android:layout_width="0dp"
+                        android:singleLine="true"
+                        android:text="@{matchesVM.matchesModel.txtYesterday}"
+                        style="@style/txtSkModernistskmodernistregular12_1" tools:text="@string/lbl_yesterday"/>
+                    <View android:background="@color/gray_200"
+                        android:id="@+id/lineLineTwoOne"
+                        android:layout_height="@dimen/_1pxv"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_6pxv"
+                        android:layout_weight="0.4" android:layout_width="0dp"/>
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerMatches1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_9pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    itemSpace="@{@dimen/_15pxh}" tools:itemCount="2" tools:listitem="@layout/row_matches1"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:backgroundTint="@color/white_A700"
+            android:id="@+id/floatingBtnFloatingactionbutton"
+            android:layout_gravity="bottom|end"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_148pxv"
+            android:layout_marginEnd="@dimen/_44pxh"
+            android:layout_marginStart="@dimen/_44pxh"
+            android:layout_marginTop="@dimen/_148pxv"
+            android:layout_width="wrap_content"
+            app:fabCustomSize="@dimen/_46pxh"
+            app:srcCompat="@drawable/img_favorite" app:tint="@color/red_400"/>
+    </FrameLayout>
+</layout>
